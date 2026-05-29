@@ -20,6 +20,7 @@ The framework adapts CLIP to cassava disease recognition under few-shot supervis
 - **Conference:** ICCAE 2026: 2026 18th International Conference on Computer and Automation Engineering
 - **Authors:** Muhammad Shafay, Muhammad Owais, Divya Velayudhan, Taimur Hassan, Irfan Hussain, Naoufel Werghi
 - **Current paper version:** Research Square preprint for early access and community use
+- **Research Square DOI:** [`10.21203/rs.3.rs-9109616/v1`](https://doi.org/10.21203/rs.3.rs-9109616/v1)
 - **Conference publication:** The official conference-published version will be added after it becomes available
 - **PDF:** [`paper/PLA-CLIP.pdf`](paper/PLA-CLIP.pdf)
 - **Conference presentation:** [`paper/PLA-CLIP_ICCAE2026_presentation.pdf`](paper/PLA-CLIP_ICCAE2026_presentation.pdf)
@@ -133,7 +134,7 @@ Dataset references from the paper:
 - **CD2:** Makerere University Cassava Image Dataset, Harvard Dataverse.
 - **CD3:** Cassava Leaf Disease Dataset, Mendeley Data.
 
-TODO: Add author-approved download and preprocessing instructions.
+Pending task: add author-approved download and preprocessing instructions.
 
 ## Running the Code
 
@@ -210,22 +211,27 @@ Pending task: upload trained checkpoints for the baseline CLIP fine-tuning runs 
 - Upload trained checkpoints.
 - Add the official conference-published paper once ICCAE 2026 publishes it.
 - Add author-approved dataset download and preprocessing instructions.
-- Update the BibTeX entry with final proceedings metadata.
+- Add the final proceedings citation after conference publication.
 
 ## Citation
 
-Formal proceedings metadata was not available in the submitted PDF. Please update this BibTeX entry before final release:
+Please cite the current Research Square preprint as:
 
 ```bibtex
-@inproceedings{shafay2026placlip,
+@misc{shafay2026progressive,
   title = {Progressive Layer Activation CLIP for Few-Shot and Generalizable Cassava Disease Recognition},
   author = {Shafay, Muhammad and Owais, Muhammad and Velayudhan, Divya and Hassan, Taimur and Hussain, Irfan and Werghi, Naoufel},
-  booktitle = {Proceedings of the 2026 18th International Conference on Computer and Automation Engineering (ICCAE)},
   year = {2026},
-  note = {TODO: verify proceedings title, pages, publisher, and DOI}
+  month = mar,
+  day = {15},
+  doi = {10.21203/rs.3.rs-9109616/v1},
+  url = {https://doi.org/10.21203/rs.3.rs-9109616/v1},
+  note = {Preprint (Version 1), Research Square}
 }
 ```
 
+The conference proceedings citation will be added after the official ICCAE 2026 publication becomes available.
+
 ## License
 
-TODO: Choose an explicit open-source license before public release. The current `LICENSE` file is a placeholder.
+This project is released under the MIT License. See [`LICENSE`](LICENSE).
