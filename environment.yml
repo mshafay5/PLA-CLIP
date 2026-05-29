@@ -1,0 +1,17 @@
+name: pla-clip
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip
+  - numpy
+  - pandas
+  - pillow
+  - tqdm
+  - scikit-learn
+  - pip:
+      - torch
+      - torchvision
+      - transformers

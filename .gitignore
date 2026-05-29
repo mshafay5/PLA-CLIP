@@ -1,0 +1,52 @@
+# Original workspace archive copied from the submitted folder.
+# The cleaned GitHub-facing files live in paper/, scripts/, data/,
+# checkpoints/, and results/.
+codes/
+ICAEE_Update_PLA_CLIP.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.pycache_check/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets and local data
+data/*
+!data/README.md
+
+# Model checkpoints and generated outputs
+checkpoints/*
+!checkpoints/README.md
+results/*
+!results/README.md
+
+# Common training artifacts
+*.pt
+*.pth
+*.pth.tar*
+*.ckpt
+events.out.tfevents*
+wandb/
+runs/
+outputs/
+output/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
