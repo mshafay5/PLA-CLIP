@@ -8,7 +8,7 @@ This repository is intentionally focused on the scripts needed to reproduce the 
 - baseline CLIP fine-tuning, which is likely the most useful starting point for many researchers;
 - PLA-CLIP, the progressive layer activation method proposed in the paper.
 
-No trained checkpoints are included. The code trains from `openai/clip-vit-base-patch16` and saves checkpoints locally when run.
+No trained checkpoints are included yet. They are planned for release soon; for now, the code trains from `openai/clip-vit-base-patch16` and saves checkpoints locally when run.
 
 ![PLA-CLIP framework overview](Figures/block%20diagram.png)
 
@@ -17,9 +17,12 @@ The framework adapts CLIP to cassava disease recognition under few-shot supervis
 ## Paper
 
 - **Title:** Progressive Layer Activation CLIP for Few-Shot and Generalizable Cassava Disease Recognition
-- **Venue:** ICCAE 2026
+- **Conference:** ICCAE 2026: 2026 18th International Conference on Computer and Automation Engineering
 - **Authors:** Muhammad Shafay, Muhammad Owais, Divya Velayudhan, Taimur Hassan, Irfan Hussain, Naoufel Werghi
+- **Current paper version:** Research Square preprint for early access and community use
+- **Conference publication:** The official conference-published version will be added after it becomes available
 - **PDF:** [`paper/PLA-CLIP.pdf`](paper/PLA-CLIP.pdf)
+- **Conference presentation:** [`paper/PLA-CLIP_ICCAE2026_presentation.pdf`](paper/PLA-CLIP_ICCAE2026_presentation.pdf)
 
 ## Method Summary
 
@@ -70,6 +73,7 @@ PLA-CLIP/
   environment.yml
   paper/
     PLA-CLIP.pdf
+    PLA-CLIP_ICCAE2026_presentation.pdf
   Figures/
     block diagram.png
     tsne.png
@@ -197,9 +201,16 @@ checkpoints/pla_clip.pth
 
 ## Checkpoints
 
-No pretrained PLA-CLIP checkpoints are provided in this repository. Reviewers and researchers can run the scripts above to train their own checkpoints from the public CLIP backbone.
+No pretrained PLA-CLIP checkpoints are provided in this repository yet. Reviewers and researchers can run the scripts above to train their own checkpoints from the public CLIP backbone.
 
-TODO: Add checkpoint links only if the authors decide to release trained weights.
+Pending task: upload trained checkpoints for the baseline CLIP fine-tuning runs and PLA-CLIP soon.
+
+## Pending Tasks
+
+- Upload trained checkpoints.
+- Add the official conference-published paper once ICCAE 2026 publishes it.
+- Add author-approved dataset download and preprocessing instructions.
+- Update the BibTeX entry with final proceedings metadata.
 
 ## Citation
 
@@ -209,7 +220,7 @@ Formal proceedings metadata was not available in the submitted PDF. Please updat
 @inproceedings{shafay2026placlip,
   title = {Progressive Layer Activation CLIP for Few-Shot and Generalizable Cassava Disease Recognition},
   author = {Shafay, Muhammad and Owais, Muhammad and Velayudhan, Divya and Hassan, Taimur and Hussain, Irfan and Werghi, Naoufel},
-  booktitle = {Proceedings of ICCAE},
+  booktitle = {Proceedings of the 2026 18th International Conference on Computer and Automation Engineering (ICCAE)},
   year = {2026},
   note = {TODO: verify proceedings title, pages, publisher, and DOI}
 }
